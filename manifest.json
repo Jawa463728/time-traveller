@@ -1,0 +1,9 @@
+{
+  "name": "Time Traveller",
+  "short_name": "Traveller",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f0e8",
+  "theme_color": "#f4f0e8",
+  "description": "Pinpoint the decade from progressively easier historical clues."
+}

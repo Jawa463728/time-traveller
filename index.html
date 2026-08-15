@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#f4f0e8" />
+  <title>Time Traveller</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button id="homeBtn" class="icon-btn hidden" aria-label="Back to home">←</button>
+      <div class="brand-wrap">
+        <div class="eyebrow">A DAILY HISTORY GAME</div>
+        <h1>Time Traveller</h1>
+      </div>
+      <button id="statsBtn" class="icon-btn" aria-label="Open stats">◎</button>
+    </header>
+
+    <main id="app"></main>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <canvas id="confettiCanvas" class="confetti-canvas" aria-hidden="true"></canvas>
+
+  <script src="history-data.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
